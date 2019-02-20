@@ -1,0 +1,38 @@
+.background {
+    background-image: url("../images/background.png")
+}
+
+.header {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.instructions {
+    background-color: #fbe6cf;
+    color: #7f974d;
+    padding: 20px;
+}
+
+.number {
+    background-color: #53c987;
+    margin-top: 10px;
+}
+
+.tracker {
+    background-color: #3afefd;
+    margin-top: 10px;
+}
+
+.crystal {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.score {
+    background-color: #1fa397;
+    margin-top: 10px;
+}
