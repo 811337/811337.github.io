@@ -1,6 +1,7 @@
 .blue {
     background-color: #4aaaa5;
     padding: 10px;
+    text-align: center;
 }
 
 .size {
@@ -10,12 +11,7 @@
     margin: 0;
 }
 
-section {
-    position: relative;
-    margin-bottom: 100px;
-}
-
-h3 {
+.banner {
     position: absolute;
     bottom: 0;
     left: 15px;
@@ -28,7 +24,7 @@ h3 {
     background: #4aaaa5;
   }
   
-footer {
+.footer {
     position: fixed;
     z-index: 2;
     bottom: 0;
@@ -42,4 +38,8 @@ footer {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+}
+
+.bottom {
+    margin-bottom: 100px;
 }
