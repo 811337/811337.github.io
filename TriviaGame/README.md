@@ -1,2 +1,2 @@
-# TriviaGame
+TriviaGame
 Click start to begin
