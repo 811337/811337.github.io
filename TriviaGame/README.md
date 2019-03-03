@@ -1,2 +1,2 @@
-TriviaGame
-Click start to begin
+# TriviaGame
+Click each answer only once and then submit
