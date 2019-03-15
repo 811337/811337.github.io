@@ -2,7 +2,7 @@
 var config = {
     apiKey: "AIzaSyASGHa04XvJPPWW9xUden9u4Yg1oLxDcbY",
     authDomain: "tryguy-b7bef.firebaseapp.com",
-    databaseURL: "https://tryguy-b7bef.firebaseio.com",
+    databaseURL: "http://tryguy-b7bef.firebaseio.com",
     projectId: "tryguy-b7bef",
     storageBucket: "tryguy-b7bef.appspot.com",
     messagingSenderId: "954742182212"
