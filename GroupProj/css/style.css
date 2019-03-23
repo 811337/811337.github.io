@@ -1,0 +1,98 @@
+body {
+
+    font-family: 'Expletus Sans', cursive;
+
+}
+
+
+.background {
+    background-color: darkgray;
+}
+
+
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+      color: #2c2c2c;
+      margin: auto;
+      letter-spacing: .05em;
+      text-shadow: 
+        4px 4px 0px #d5d5d5, 
+        7px 7px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    ul {
+        margin: auto;
+    }
+  
+li {
+    color: orange;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    
+  }
+
+.banner {
+    background-color: darkgrey;
+    padding: 20px 0;
+    
+}
+
+
+.mediumRadios {
+    font-size: 20px;
+    color: maroon;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.custom-control {
+    font-size: 20px;
+    color: maroon;
+    margin: 30px;
+    width: 10%;
+     
+}
+
+.submitButton {
+
+    padding: 30px;
+    width: 100%;
+    
+}
+
+
+
+.main {
+    background-color: silver;
+    padding: 100px 20px;
+}
+
+.poster-section {
+    padding: 20px 5px;
+}
+
+.poster {
+    width: 100%;
+}
+
+.info {
+    padding: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    letter-spacing: 3px;
+}
