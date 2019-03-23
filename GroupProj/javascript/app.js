@@ -62,7 +62,7 @@ $(".genreRadio").click(function() {
 }];*/
 
 $("#submitBtn").on("click", function() {
-  let tmdbURL = "http://api.themoviedb.org/3/discover/" + medium + "?api_key=" + tmdbApiKey +
+  let tmdbURL = "https://api.themoviedb.org/3/discover/" + medium + "?api_key=" + tmdbApiKey +
                 "&with_genres=" + genrePick + "&certification_country=US&append_to_response=release_dates";
     let trailerSearch;
 
