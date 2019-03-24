@@ -41,26 +41,32 @@ $(".genreRadio").click(function() {
 */
 
 $("#submitBtn").on("click", function() {
-  let tmdbURL = "https://api.themoviedb.org/3/discover/" + medium +
-  "?api_key=" + tmdbApiKey +
-  "&with_genres=" + genrePick +
-  "&certification_country=US&append_to_response=release_dates";
 
-  $.ajax({
-    url: tmdbURL,
-    method: "GET"
-  }).then(function(response) {
-    for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i++) {
+    let tmdbURL = "https://api.themoviedb.org/4/discover/" + medium +
+    "?api_key=" + tmdbApiKey +
+    "&language=en-US&sort_by=popularity.desc&page=" + [i+1] +
+    "&with_genres=" + genrePick;
+
+    /*
+    https://api.themoviedb.org/3/discover/movie?api_key=37c1cec5856970e41782ef3828236ba2
+    &language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&page=8&with_genres=16
+    */
+
+    $.ajax({
+      url: tmdbURL,
+      method: "GET"
+    }).then(function(response) {
+    
       resultsArr.push(response.results);
       let choice = Math.floor(Math.random() * response.results.length);      
       choiceArr.push(choice);
 
       // builds poster
       document.getElementsByTagName("img")[i].setAttribute("src", "https://image.tmdb.org/t/p/w342/" + response.results[choice].poster_path);
+    });
 
-    }
-
-  });
+  };
 
 });
 
