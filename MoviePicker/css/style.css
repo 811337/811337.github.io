@@ -1,7 +1,5 @@
-body {
-
+.container {
     font-family: 'Expletus Sans', cursive;
-
 }
 
 
@@ -10,23 +8,21 @@ body {
 }
 
 
-h1 {
+.title {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 70px;
     text-align: center;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
-      color: #2c2c2c;
-      margin: auto;
-      letter-spacing: .05em;
-      text-shadow: 
-        4px 4px 0px #d5d5d5, 
-        7px 7px 0px rgba(0, 0, 0, 0.2);
-    }
+    color: #2c2c2c;
+    margin: auto;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
 
-    ul {
-        margin: auto;
-    }
+.lights {
+    margin: auto;
+}
   
 li {
     color: orange;
@@ -35,7 +31,7 @@ li {
     height: 20px;
     padding: 20px;
     
-  }
+}
 
 .banner {
     background-color: darkgrey;
@@ -90,9 +86,4 @@ li {
 
 .center {
     text-align: center;
-}
-
-footer {
-    text-align: center;
-    letter-spacing: 3px;
 }
