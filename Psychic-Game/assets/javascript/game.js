@@ -43,4 +43,4 @@ document.onkeyup = function(event) {
     guessesText.textContent = guesses;
 };
 
-
+document.getElementById("user-text").focus();
