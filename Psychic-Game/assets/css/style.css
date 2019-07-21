@@ -1,0 +1,23 @@
+.container {
+    background-color: gray;
+}
+
+#title {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#subtitle {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pic {
+    
+    width: 100%;
+    height: 100%;
+  }

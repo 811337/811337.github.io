@@ -1,0 +1,17 @@
+.container {
+    background-color: silver;
+}
+
+.form {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.padding {
+    padding: 10px;
+}
