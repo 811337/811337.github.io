@@ -64,7 +64,11 @@ $("#submitBtn").on("click", function() {
       choiceArr.push(choice);
 
       // builds poster
-      document.getElementsByTagName("img")[i].setAttribute("src", "https://image.tmdb.org/t/p/w342/" + response.results[choice].poster_path);
+      if (response.results[choice].poster_path) {
+        document.getElementsByTagName("img")[i].setAttribute("src", "https://image.tmdb.org/t/p/w342/" + response.results[choice].poster_path)
+      } else {
+        document.getElementsByTagName("img")[i].setAttribute("src", "assets/images/NoPoster3.jpg")
+      }
 
       // builds title
       document.getElementsByClassName("name")[i].textContent = response.results[choice].name || response.results[choice].title
