@@ -1,10 +1,12 @@
 $(document).ready(function() {
   function animateText(container, el) {
+
     $(container).each(function() {
       var elIndx = 0;
       var thisContainer = $(this);
       var initialColor = $(this).find(el).css("color");
       var timeline = anime.timeline({loop:true});
+
       $(thisContainer).find(el).each(function() {
         timeline
           .add({
@@ -26,7 +28,9 @@ $(document).ready(function() {
           })
         elIndx++;
       });
+
     });
   }
+
   animateText('ul', 'li');
 });

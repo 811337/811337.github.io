@@ -2,17 +2,14 @@
     font-family: 'Expletus Sans', cursive;
 }
 
-
 .background {
     background-color: darkgray;
 }
-
 
 .title {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 70px;
     text-align: center;
-    text-transform: uppercase;
     text-rendering: optimizeLegibility;
     color: #2c2c2c;
     margin: auto;
@@ -30,13 +27,11 @@ li {
     width: 20px;
     height: 20px;
     padding: 20px;
-    
 }
 
 .banner {
     background-color: darkgrey;
     padding: 20px 0;
-    
 }
 
 
@@ -46,23 +41,18 @@ li {
     margin: 30px;
     width: 100%;
     text-align: center;
-    
 }
-
 
 .custom-control {
     font-size: 20px;
     color: maroon;
     margin: auto;
-    width: 10%;
-     
+    width: 10%;   
 }
 
 .submitButton {
-
     padding: 30px;
     width: 100%;
-    
 }
 
 .main {
