@@ -1,3 +1,8 @@
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
 .navbar {
     position: fixed;
     z-index: 2;

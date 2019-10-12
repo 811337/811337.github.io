@@ -46,7 +46,7 @@ $("#submitBtn").on("click", function() {
     let tmdbURL =
       "https://api.themoviedb.org/4/discover/" + medium +
       "?api_key=" + tmdbApiKey +
-      "&language=en-US&sort_by=popularity.desc&page=" + [i+1] +
+      "&sort_by=popularity.desc&page=" + [i+1] +
       "&with_genres=" + genrePick;
 
       /*
