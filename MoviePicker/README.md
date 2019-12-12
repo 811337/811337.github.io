@@ -1,7 +1,7 @@
 # MoviePicker
 
 ## Description
-Users pick a genre to display 3 random TV series or movies that are recommended.
+Users pick a genre to display 3 random TV series or movies that are recommended. 1
 
 ## Demo
 
