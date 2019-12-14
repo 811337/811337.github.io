@@ -1,7 +1,7 @@
 # GemGame
 
 ## Description
-A number is randomly generated. Users click gems with assigned number values, to be added to get that number.
+A number is randomly generated to for users to get to. Users have the option of clicking 4 gems with ramdomly assigned numbers, adding them togehter.
 
 ## Demo
 
