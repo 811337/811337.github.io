@@ -49,6 +49,9 @@
 
 .poster {
     width: 100%;
+    border-width: 25px;
+    border-style: outset;
+    border-color: #643D01;
 }
 
 .center {
