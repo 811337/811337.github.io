@@ -17,23 +17,10 @@
     text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
-.lights {
-    margin: auto;
-}
-  
-li {
-    color: orange;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    padding: 20px;
-}
-
 .banner {
     background-color: darkgrey;
     padding: 20px 0;
 }
-
 
 .mediumRadios {
     font-size: 20px;
@@ -60,16 +47,8 @@ li {
     padding: 100px 20px;
 }
 
-.poster-section {
-    padding: 20px 5px;
-}
-
 .poster {
     width: 100%;
-}
-
-.info {
-    padding: 10px 0;
 }
 
 .center {
