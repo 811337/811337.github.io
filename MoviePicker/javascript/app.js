@@ -67,7 +67,7 @@ $("#submitBtn").on("click", function() {
       if (response.results[choice].poster_path) {
         document.getElementsByTagName("img")[i].setAttribute("src", "https://image.tmdb.org/t/p/w342/" + response.results[choice].poster_path)
       } else {
-        document.getElementsByTagName("img")[i].setAttribute("src", "assets/images/NoPoster3.jpg")
+        document.getElementsByTagName("img")[i].setAttribute("src", "assets/images/NoPoster.png")
       }
 
       // builds title
