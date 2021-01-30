@@ -3,7 +3,7 @@
 }
 
 .background {
-    background-color: whitesmoke;
+    background-color: darkgrey;
 }
 
 .title {
@@ -43,7 +43,7 @@
 }
 
 .main {
-    background-color: silver;
+    background-color: whitesmoke;
     padding: 100px 20px;
 }
 
