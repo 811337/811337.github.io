@@ -9,10 +9,12 @@ let averageVote;
 let releaseDate;
 let newChoose;
 
-// clicking a medium button will save "movie" or "TV" into the medium variable
+/*
+clicking a medium button will save "movie" or "TV" into the medium variable
 $(".mediumRadio").click(function() {
   medium = this.value;
 });
+*/
 
 // clicking a genre button will save a genre into the genrePick variable
 $(".genreRadio").click(function() {
