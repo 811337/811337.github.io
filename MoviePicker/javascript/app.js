@@ -34,23 +34,19 @@ $(".genreRadio").click(function() {
     soap: 10766,
     talk: 10767,
     war/politics: 10768,
-    western: 37,
-    thriller: 53*,
-    war: 10752*,
-    western: 37*
+    western: 37
 */
 
 $("#submitBtn").on("click", function() {
 
   for (let i = 0; i < 3; i++) {
     let tmdbURL =
-      "https://api.themoviedb.org/4/discover/" + medium +
-      "?api_key=" + tmdbApiKey +
+      "https://api.themoviedb.org/4/discover/tv?api_key=" + tmdbApiKey +
       "&sort_by=popularity.desc&page=" + [i+1] +
       "&with_genres=" + genrePick;
 
       /*
-      https://api.themoviedb.org/3/discover/movie?api_key=37c1cec5856970e41782ef3828236ba2
+      https://api.themoviedb.org/3/discover/tv?api_key=37c1cec5856970e41782ef3828236ba2
       &language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&page=8&with_genres=16
       */
 
