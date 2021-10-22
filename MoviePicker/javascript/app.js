@@ -1,6 +1,6 @@
 const tmdbApiKey = "84dabc723cff3b071bdbb2f068882641";
 
-let medium;
+// let medium;
 let genrePick;
 let resultsArr = [];
 let choiceArr = [];
