@@ -1,5 +1,6 @@
 const tmdbApiKey = "84dabc723cff3b071bdbb2f068882641";
 
+let medium;
 let genrePick;
 let resultsArr = [];
 let choiceArr = [];
@@ -7,6 +8,23 @@ let title;
 let averageVote;
 let releaseDate;
 let newChoose;
+
+// clicking a medium button will save "movie" or "tv" into the medium variable
+$(".mediumRadio").click(function() {
+  medium = this.value;
+});
+
+// clicking the movies button will unhide movies genres and hide tv genres
+$("#movieRadio").click(function() {
+  document.getElementById('movieGenres').hidden = false;
+  document.getElementById('tvGenres').hidden = true;
+});
+
+// clicking the series button will unhide tv genres and hide movie genres
+$("#tvRadio").click(function() {
+  document.getElementById('tvGenres').hidden = false;
+  document.getElementById('movieGenres').hidden = true;
+});
 
 // clicking a genre button will save a genre into the genrePick variable
 $(".genreRadio").click(function() {
@@ -35,7 +53,8 @@ $("#submitBtn").on("click", function() {
 
   for (let i = 0; i < 3; i++) {
     let tmdbURL =
-      "https://api.themoviedb.org/4/discover/tv?api_key=" + tmdbApiKey +
+      "https://api.themoviedb.org/4/discover/" + medium +
+      "?api_key=" + tmdbApiKey +
       "&sort_by=popularity.desc&include_adult=false&page=" + [i+1] +
       "&with_genres=" + genrePick;
 

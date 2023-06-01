@@ -26,10 +26,118 @@
 <body class="container background">
 
     <header class="row banner">
-        <h1 class="title col-12">Shows to Watch</h1>
+        <h1 class="title col-12">What to Watch</h1>
     </header>
 
     <div class="mediumRadios row">
+
+        <div class="custom-control custom-radio custom-control-inline col-6">
+            <input type="radio" id="movieRadio" name="medium" value="movie" class="custom-control-input mediumRadio">
+            <label class="custom-control-label" for="movieRadio">Movies</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-6">
+            <input type="radio" id="tvRadio" name="medium" value="tv" class="custom-control-input mediumRadio">
+            <label class="custom-control-label" for="tvRadio">Series</label>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="mediumRadios row" id="movieGenres" hidden>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreAction1" name="genre" value="28" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreAction1">Action</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreAdventure1" name="genre" value="12" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreAdventure1">Adventure</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreAnimation1" name="genre" value="16"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreAnimation1">Animation</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreComedy1" name="genre" value="35"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreComedy1">Comedy</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+                <input type="radio" id="genreDocumentary1" name="genre" value="99"  class="custom-control-input genreRadio">
+                <label class="custom-control-label" for="genreDocumentary1">Docu</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreCrime1" name="genre" value="80"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreCrime1">Crime</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreDrama1" name="genre" value="18" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreDrama1">Drama</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreFamily1" name="genre" value="10751"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreFamily1">Family</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreFantasy1" name="genre" value="14" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreFantasy1">Fantasy</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreHistory1" name="genre" value="36"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreHistory1">History</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreHorror1" name="genre" value="27"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreHorror1">Horror</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreMusic1" name="genre" value="10402" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreMusic1">Musical</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreMystery1" name="genre" value="9648"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreMystery1">Mystery</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreRomance1" name="genre" value="10749" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreRomance1">Romance</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreSciFi1" name="genre" value="878" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreSciFi1">Sci-Fi</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreThriller1" name="genre" value="53" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreThriller1">Thriller</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreWar1" name="genre" value="10752" class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreWar1">War</label>
+        </div>
+
+        <div class="custom-control custom-radio custom-control-inline col-lg-2 col-sm-4 col-6">
+            <input type="radio" id="genreWestern1" name="genre" value="37"  class="custom-control-input genreRadio">
+            <label class="custom-control-label" for="genreWestern1">Western</label>
+        </div>
+    </div>
+    
+    <div class="mediumRadios row" id="tvGenres" hidden>
 
         <div class="custom-control custom-radio custom-control-inline col-lg-2 col-md-4 col-6">
             <input type="radio" id="genreAnimation" name="genre" value="16" class="custom-control-input genreRadio">
