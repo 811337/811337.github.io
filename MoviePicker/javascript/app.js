@@ -14,16 +14,20 @@ $(".mediumRadio").click(function() {
   medium = this.value;
 });
 
-// clicking the movies button will unhide movies genres and hide tv genres
+// clicking the movies button will unhide movies genres, hide tv genres, reset tv genres to blank
 $("#movieRadio").click(function() {
   document.getElementById('movieGenres').hidden = false;
   document.getElementById('tvGenres').hidden = true;
+  document.getElementById('tvGenres').reset();
+  genrePick = "";
 });
 
-// clicking the series button will unhide tv genres and hide movie genres
+// clicking the series button will unhide tv genres, hide movie genres, reset movie genres to blank
 $("#tvRadio").click(function() {
   document.getElementById('tvGenres').hidden = false;
   document.getElementById('movieGenres').hidden = true;
+  document.getElementById('movieGenres').reset();
+  genrePick = "";
 });
 
 // clicking a genre button will save a genre into the genrePick variable
